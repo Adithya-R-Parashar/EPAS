@@ -1,0 +1,61 @@
+.main {
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-size: 8px;
+  
+}
+img{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+
+}
+.dash2{
+    position:absolute;
+    top: 220px;
+    left: 50px;
+    color: rgb(168, 159, 204);
+    font-size: 8px;
+}
+.name{
+    width: 800px;
+    border-radius:25px;
+    position:absolute;
+    top: 225px;
+    left: 420px;
+    color: white;
+    font-size: 7px;
+    background-color: #2f2651;
+}
+.large-image{
+    position:absolute;
+    top: 230px;
+    left: 330px;
+    color: white;
+    width: 65px;
+    height: 65px;
+}
+.table{
+    color: white;
+    padding: auto;
+}
+.avg{
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+    background-color: #180a4a;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 8px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

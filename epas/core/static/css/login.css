@@ -1,0 +1,42 @@
+
+.main {
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-size: 8px;
+  
+}
+h1{
+    position:relative;
+    width: 400px;
+    height: 300px;
+ 
+}
+img{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+
+}
+.login-container{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+.text1{
+    position:absolute;
+    top: 250px;
+    left: 1050px;
+    color: white;
+}
+.para1{
+    position:absolute;
+    top: 350px;
+    left: 900px;
+    color: white;
+}
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <img src="{% static 'images/logo.jpg' %}" alt="logo">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url("{% static 'images/bg.jpeg' %}");
+            background-color: #4c046b;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .login-container {
+            background-color: #d4b9e8;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4c046b;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Employee Analysis</h1>
+    </div>
+</body>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="submit">
+        </form>
+        <a href="{% url 'reg' %}"><h5>register here</h5></a>
+        {% for message in messages %}
+    <p>{{ message }}</p>
+    {% endfor %}
+    </div>
+    <body>
+        <div class="text1">
+            <h1>What Do We Do</h1>
+        </div>
+        <body>
+            <div class="para1">
+        <p2>Helping organization with a real time snapshot of the employee experience. <br> Workplace analytics extend beyond metrix to analyse employee <br> productivity,effectiveness,and engagement.</p2>
+            </div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,161 @@
+.logo{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+
+}
+.main {
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-size: 8px;
+  
+}
+.dash {
+    position:absolute;
+    top: 45px;
+    left: 330px;
+    color: white;
+    font-size: 8px;
+  
+}
+.search{
+    position:absolute;
+    top: 43px;
+    left: 700px ;
+    color: white;
+    font-size: 8px;
+}
+input[type="text"] {
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: #3a3a3a;
+    color: #fffcfc;
+    width: 250px;
+    border-radius: 25px;
+    font-size: 10px;
+}
+.buttonss {
+    padding: 10px 20px;
+    background-color: #403f3f;
+    border: none;
+    color: #fffcfc;
+    border-radius:25px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.update{
+    position:absolute;
+    top: 250px;
+    left: 50px;
+    color: white;
+    font-size: 8px;
+}
+.dash2{
+    position:absolute;
+    top: 220px;
+    left: 50px;
+    color: rgb(168, 159, 204);
+    font-size: 8px;
+}
+
+.empd{
+    position:absolute;
+    top: 145px;
+    left: 330px;
+    color: white;
+    font-size: 12px;
+}
+.name{
+    background-color: #2f2651;
+    color: white;
+    font-size: 7px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 25px;
+    width: 300px; 
+    box-sizing: border-box;
+}
+.logout{
+    position:absolute;
+    top: 45px;
+    left: 1350px;
+    color: white;
+    font-size: 8px;
+  
+}
+.menu{
+    position:absolute;
+    top: 150px;
+    left: 50px;
+    color: rgb(253, 252, 255);
+    font-size: 8px;  
+}
+.employee-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left: 20%;
+    top: 30%; 
+}
+.cell{
+    background-color: #2b2144;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    padding-right: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.child{
+    padding-right: 300px;
+}
+.cell p{
+    width: 100px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.btn{
+    background-color: #3b216f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block; 
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.updates{
+    background-color:#3b216f;
+    color: white;
+    padding: 10px, 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.adde{
+    position:absolute;
+    top: 280px;
+    left: 50px;
+    color: white;
+    font-size: 8px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

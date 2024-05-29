@@ -1,0 +1,165 @@
+img{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+
+}
+.main {
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-size: 8px;
+}
+.dash {
+    position:absolute;
+    top: 45px;
+    left: 330px;
+    color: white;
+    font-size: 15px;
+  
+}
+.dash2{
+    position:absolute;
+    top: 220px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    text-decoration: none;
+}
+.checkin{
+    position:absolute;
+    top: 145px;
+    left: 330px;
+    color: white;
+    font-size: 11px;
+}
+.checkout{
+    width: 300px;
+    height: 10px;
+    position:absolute;
+    top: 145px;
+    left: 950px;
+    color: white;
+    font-size: 11px;
+}
+.checkint{
+    width: 300px;
+    border-radius:25px;
+    position:absolute;
+    top: 225px;
+    left: 420px;
+    color: white;
+    font-size: 43px;
+}
+.timein{
+    width: 100px;
+    height: 30px;
+    border-radius:25px;
+    position:absolute;
+    top: 245px;
+    left: 605px;
+    color: white;
+    font-size: 7px;
+    background-color: #3b2294;
+}
+.checkoutt{
+    width: 300px;
+    border-radius:25px;
+    position:absolute;
+    top: 225px;
+    left: 950px;
+    color: white;
+    font-size: 43px;
+
+}
+.timeout{
+    width: 100px;
+    height: 30px;
+    border-radius:25px;
+    position:absolute;
+    top: 245px;
+    left: 1130px;
+    color: white;
+    font-size: 7px;
+    background-color: #3b2294;
+}
+.er{
+    position:absolute;
+    top: 350px;
+    left: 330px;
+    color: white;
+    font-size: 11px; 
+}
+.sub{
+    position:absolute;
+    top: 350px;
+    left: 950px;
+    color: white;
+    font-size: 11px;
+}
+.erv{
+    width: 300px;
+    border-radius:25px;
+    position:absolute;
+    top: 420px;
+    left: 420px;
+    color: white;
+    font-size: 43px;
+
+}
+.ervr{
+    width: 100px;
+    height: 30px;
+    border-radius:25px;
+    position:absolute;
+    top: 440px;
+    left: 605px;
+    color: white;
+    font-size: 7px;
+    background-color: #3b2294;
+}
+.subv{
+    width: 300px;
+    border-radius:25px;
+    position:absolute;
+    top: 420px;
+    left: 950px;
+    color: white;
+    font-size: 20px;
+}
+.subr{
+    width: 100px;
+    height: 30px;
+    border-radius:25px;
+    position:absolute;
+    top: 440px;
+    left: 1130px;
+    color: white;
+    font-size: 7px;
+    background-color: #3b2294;
+}
+.subb{
+    position: absolute;
+    top: 500px;
+    left: 50%;
+}
+
+.subb button{
+    position:absolute;
+    width: 100px;
+    height: 30px;
+    top: 600px;
+    left: 790px;
+    color: azure;
+    border-radius: 20px;
+    border-color: #3b2294;
+    background-color: #3b2294;
+}
+
+a{
+    text-decoration: None;
+    color: white;
+}

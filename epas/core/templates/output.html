@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>list of employees</title>
+    <link rel="stylesheet" href="{% static 'css/output.css' %}">
+</head>
+<body>
+    <h2>this is the list of employees</h2>
+    <table>
+        <tr>
+            <th>emp no</th>
+            <th>Fname</th>
+            <th>Lname</th>
+            <th>department</th>
+        </tr>
+        {% for x in output %}
+        <tr>
+            <td><a href="{% url 'empno' x.empno %}">{{ x.empno }}</a></td>
+            <td><a href="{% url 'empno' x.empno %}">{{ x.fname }}</a></td>
+            <td><a href="{% url 'empno' x.empno %}">{{ x.lname }}</a></td>
+            <td><a href="{% url 'empno' x.empno %}">{{ x.department }}</a></td>
+            <td><a href="{% url 'empno' x.empno %}">click here</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

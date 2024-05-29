@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewEmp</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+    <img src="{% static 'images/logo.jpg' %}">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url("{% static 'images/landingbg.jpeg' %}");
+            background-color: #4c046b;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .login-container {
+            background-color: #d4b9e8;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+        }
+        .login-container button {
+            width: 40%;
+            padding: 10px;
+            background-color: #4c046b;
+            color: #ffffff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Employee Analysis</h1>
+    </div>
+</body>
+<body>
+    <div class="login-container">
+        <h2>New Employee</h2><br>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.fname }}
+            {{ form.lname }}
+            {{ form.department }}
+            {{ form.empno }}
+            {{ form.dp }}
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <body>
